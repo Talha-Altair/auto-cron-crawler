@@ -1,0 +1,14 @@
+version: "3"
+
+# Restart param for production only
+
+services:
+
+  app:
+
+      build: .
+
+      volumes:
+        - .:/app
+
+      restart: always
