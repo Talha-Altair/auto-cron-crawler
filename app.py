@@ -1,9 +1,9 @@
 from cpu_stress import stress
-from scraper import get_data
+from scraper import get_data as invoke_crawler
 
 def startpy():
 
-    get_data()
+    invoke_crawler()
 
     stress()
 
